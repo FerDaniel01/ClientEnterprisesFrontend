@@ -1,38 +1,87 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
 }
 
-.App-link {
-  color: #61dafb;
+.informatio{
+
+display: flex;
+flex-direction: column;
+width: 100%;
+justify-content: center;
+background-color: rgb(130, 163, 163);
+align-items: center;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ input{
+  width: 200px;
+  height: 30px;
+  font-size:20px;
+  padding-left:  10px;
+  margin: 5px;
+  margin-top: 5px;
+
+
+}
+
+.employee button{
+  width: 320px;
+  height: 50px;
+  
+  padding-left:  10px;
+  background-color:brown;
+  
+
+
+}
+ button{
+  width: 320px;
+  height: 50px;
+  
+  padding-left:  10px;
+  
+  
+
+
+}
+
+button:hover{
+cursor: pointer;
+
+
+}
+
+.employees{
+  
+display: flex;
+align-items: center;
+flex-direction: column;
+width: 100%;
+justify-content: center;
+background-color: aqua;
+
+}
+
+.employee{
+  width: 1000px;
+  height: auto;
+  border: 1px solid black;
+  margin: 10px;
+  display: flex;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+
+
+
+
+}
+.employee h3{
+  margin:10px;
+
+
 }
